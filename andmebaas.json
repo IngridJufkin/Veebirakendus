@@ -1,0 +1,37 @@
+{
+"products": {
+    "name": "string",
+    "productCode": "SAL1" ,
+    "category": ["JELLY", "SOUPS", "CANNED_FOOD"],
+    "weight": 350,
+    "price": 1.50,
+    "notes": "string" 
+},
+
+"orders": {
+
+    "orderNumber": 1,
+    "products":  [
+         {
+                "name": "string",
+                "productCode": "SAL1" ,
+                "category": ["JELLY", "SOUPS", "CANNED_FOOD"],
+                "weight": 350,
+                "price": 1.50,
+                "kgprice": 3,
+                "notes": "string", 
+                "amount": 2
+         } 
+    ],    
+    "price": 200,
+    "bonusCode": "string",
+    "orderDate": "2020-12-03ksoksojdhs",
+    "status": ["WAITING_FOR_PAYMENT", "DONE"]
+} ,
+
+"bonus": {
+    "code": "string",
+    "status": ["ACTIVE", "UNACTIVE"],
+    "discount": 10
+}
+}
